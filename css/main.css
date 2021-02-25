@@ -1,0 +1,589 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+
+  z-index: 1;
+  overflow: hidden;
+  background-color: #ffffff !important;
+  min-height: 50px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  direction: rtl;
+  overflow: hidden;
+}
+.navbar {
+  margin-top: 5px;
+  padding: 10px;
+}
+.header a {
+  color: black;
+  padding: 59px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 16px;
+}
+.header a:hover {
+  background-color: rgb(185, 185, 185);
+  color: black;
+}
+
+.header a.active {
+  background-color: #4caf50;
+  color: black;
+}
+.nav1 {
+  width: 200px;
+  top: 5px;
+  color: black;
+  float: right;
+  direction: rtl;
+  overflow: hidden;
+
+  position: fixed;
+  z-index: 1;
+}
+.nav1 a:hover {
+  background-color: rgb(185, 185, 185);
+  color: black;
+}
+
+.nav1 a.active {
+  background-color: #4caf50;
+  color: white;
+}
+.nav1 a {
+  float: right;
+
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  height: 99vh;
+  background-color: aquamarine;
+  background-image: url(../image/hamburger.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content {
+  width: 70%;
+  height: 500px;
+  margin: 0px auto;
+  margin-bottom: 70px;
+}
+.contentimage {
+  width: 40%;
+  float: left;
+  background-image: url(../image/tablesetting2.jpg);
+  background-attachment: unset;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.textbox {
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+.content1 {
+  width: 70%;
+  height: 600px;
+
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.contentimage1 {
+  width: 40%;
+  height: 100%;
+  background-image: url(../image/tablesetting3.jpg);
+  float: right;
+  background-attachment: unset;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.textbox1 {
+  width: 50%;
+  height: 100%;
+
+  float: left;
+}
+.contact {
+  width: 70%;
+  margin: 0px auto;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 100;
+}
+h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 100;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  /* line-height: 109vh; */
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+}
+h4 {
+  font-weight: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 22px;
+}
+h5 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+p {
+  padding: 30px;
+  text-align: justify;
+  line-height: 28px;
+}
+
+.seasonal {
+  background-color: #f1f1f1 !important;
+  padding: 5px;
+}
+.kamrang {
+  color: #757575 !important;
+}
+.blue {
+  color: #607d8b !important;
+  font-weight: bolder;
+}
+.matn {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 15px;
+}
+.input {
+  width: 1000px;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  height: 50px;
+}
+
+.button {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  font: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra small devices */
+@media (max-width: 575.98px) {
+  .header {
+    width: 100%;
+    position: fixed;
+
+    z-index: 1;
+    overflow: hidden;
+    background-color: #ffffff !important;
+    min-height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    direction: rtl;
+    overflow: hidden;
+    display: none;
+  }
+
+  .nav1 {
+    width: 200px;
+    top: 5px;
+    color: black;
+    float: right;
+    direction: rtl;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    height: 99vh;
+    background-color: aquamarine;
+    background-image: url(../image/hamburger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+  }
+  .contentimage {
+    width: 100%;
+    float: left;
+    background-image: url(../image/tablesetting2.jpg);
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .textbox {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  .content1 {
+    width: 70%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .contentimage1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url(../image/tablesetting3.jpg);
+    float: right;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textbox1 {
+    width: 100%;
+    height: 100%;
+
+    float: left;
+  }
+  .contact {
+    width: 100%;
+
+    height: auto;
+
+    margin-bottom: 50px;
+  }
+
+  .button {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font: inherit;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    width: 100%;
+    position: fixed;
+
+    z-index: 1;
+    overflow: hidden;
+    background-color: #ffffff !important;
+    min-height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    direction: rtl;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+    height: 99vh;
+    background-color: aquamarine;
+    background-image: url(../image/hamburger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .contentimage {
+    width: 100%;
+    float: left;
+    background-image: url(../image/tablesetting2.jpg);
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .textbox {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  .content1 {
+    width: 70%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .contentimage1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url(../image/tablesetting3.jpg);
+    float: right;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textbox1 {
+    width: 100%;
+    height: 100%;
+
+    float: left;
+  }
+  .contact {
+    width: 100%;
+
+    height: auto;
+
+    margin-bottom: 50px;
+  }
+
+  .button {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font: inherit;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
+
+/* medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    width: 100%;
+    position: fixed;
+
+    z-index: 1;
+    overflow: hidden;
+    background-color: #ffffff !important;
+    min-height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    direction: rtl;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+    height: 99vh;
+    background-color: aquamarine;
+    background-image: url(../image/hamburger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .contentimage {
+    width: 100%;
+    float: left;
+    background-image: url(../image/tablesetting2.jpg);
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .textbox {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  .content1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .contentimage1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url(../image/tablesetting3.jpg);
+    float: right;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textbox1 {
+    width: 100%;
+    height: 100%;
+
+    float: left;
+  }
+  .contact {
+    width: 100%;
+    text-align: center;
+    height: auto;
+
+    margin-bottom: 50px;
+  }
+
+  .button {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font: inherit;
+  }
+
+  .input {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header {
+    width: 100%;
+    position: fixed;
+
+    z-index: 1;
+    overflow: hidden;
+    background-color: #ffffff !important;
+    min-height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    direction: rtl;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+    height: 99vh;
+    background-color: aquamarine;
+    background-image: url(../image/hamburger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .contentimage {
+    width: 100%;
+    float: left;
+    background-image: url(../image/tablesetting2.jpg);
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .textbox {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  .content1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .contentimage1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url(../image/tablesetting3.jpg);
+    float: right;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textbox1 {
+    width: 100%;
+    height: auto;
+
+    float: left;
+  }
+
+  .contact {
+    width: 100%;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+
+  .button {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font: inherit;
+  }
+
+  .input {
+    width: 100%;
+    height: auto;
+  }
+}
